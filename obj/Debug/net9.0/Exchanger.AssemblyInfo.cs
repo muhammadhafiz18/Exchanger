@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exchanger")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3e2902e39ead7663ed63ff8bc758c5172407088")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exchanger")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exchanger")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
