@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/muhammadspc/Ilmhub/dotnet-standard-lessons/Exchanger/Exchanger.csproj": {}
+    "C:\\Users\\user\\Projects\\Exchanger\\Exchanger.csproj": {}
   },
   "projects": {
-    "/Users/muhammadspc/Ilmhub/dotnet-standard-lessons/Exchanger/Exchanger.csproj": {
+    "C:\\Users\\user\\Projects\\Exchanger\\Exchanger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/muhammadspc/Ilmhub/dotnet-standard-lessons/Exchanger/Exchanger.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Projects\\Exchanger\\Exchanger.csproj",
         "projectName": "Exchanger",
-        "projectPath": "/Users/muhammadspc/Ilmhub/dotnet-standard-lessons/Exchanger/Exchanger.csproj",
-        "packagesPath": "/Users/muhammadspc/.nuget/packages/",
-        "outputPath": "/Users/muhammadspc/Ilmhub/dotnet-standard-lessons/Exchanger/obj/",
+        "projectPath": "C:\\Users\\user\\Projects\\Exchanger\\Exchanger.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Projects\\Exchanger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/muhammadspc/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
