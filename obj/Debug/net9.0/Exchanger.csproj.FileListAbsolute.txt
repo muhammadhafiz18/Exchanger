@@ -12,3 +12,4 @@
 /Users/muhammadspc/Ilmhub/dotnet-standard-lessons/Exchanger/obj/Debug/net9.0/Exchanger.pdb
 /Users/muhammadspc/Ilmhub/dotnet-standard-lessons/Exchanger/obj/Debug/net9.0/Exchanger.genruntimeconfig.cache
 /Users/muhammadspc/Ilmhub/dotnet-standard-lessons/Exchanger/obj/Debug/net9.0/ref/Exchanger.dll
+/Users/muhammadspc/Ilmhub/dotnet-standard-lessons/Exchanger/obj/Debug/net9.0/Exchanger.sourcelink.json

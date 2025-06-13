@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+hmRhsGhm/k=",
+  "dgSpecHash": "HAq8gEkcZI0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\Projects\\Exchanger\\Exchanger.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/muhammadspc/Ilmhub/dotnet-standard-lessons/Exchanger/Exchanger.csproj",
+  "expectedPackageFiles": [
+    "/Users/muhammadspc/.nuget/packages/microsoft.netcore.app.ref/8.0.17/microsoft.netcore.app.ref.8.0.17.nupkg.sha512",
+    "/Users/muhammadspc/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.17/microsoft.aspnetcore.app.ref.8.0.17.nupkg.sha512",
+    "/Users/muhammadspc/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.17/microsoft.netcore.app.host.osx-arm64.8.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

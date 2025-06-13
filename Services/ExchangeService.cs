@@ -49,4 +49,48 @@ public class ExchangeService(HttpClient httpClient) : IExchangeService
 
         return currencyResponse;
     }
+
+    public async Task<HistoricalResponse> GetDurationCurrencyAsync(int year, int month, int day, int year2, int month2, int day2)
+    {
+        var response = await _httpClient.GetAsync($"https://api.frankfurter.dev/v1/{year}-{month}-{day}..{year2}-{month2}-{day2}");
+
+        if (!response.IsSuccessStatusCode)
+        {
+            throw new Exception($"Failed to retrive data for the date: {year}, {month}, {day}");
+        }
+
+        var json = await response.Content.ReadAsStringAsync();
+
+        var options = new JsonSerializerOptions()
+        {
+            PropertyNameCaseInsensitive = true
+        };
+
+        var historicalResponse = JsonSerializer.Deserialize<HistoricalResponse>(json, options);
+
+        Console.WriteLine(historicalResponse);
+
+        return historicalResponse;
+    }
+
+    public async Task<CurrencyResponse> GetAllCurrentCurrencyAsync()
+    {
+        var response = await _httpClient.GetAsync($"https://api.frankfurter.dev/v1/latest");
+
+        if (!response.IsSuccessStatusCode)
+        {
+            throw new Exception("failed to retrive data for the latest ones");
+        }
+
+        string json = await response.Content.ReadAsStringAsync();
+
+        var options = new JsonSerializerOptions()
+        {
+            PropertyNameCaseInsensitive = true
+        };
+
+        var currencyResponse = JsonSerializer.Deserialize<CurrencyResponse>(json, options);
+
+        return currencyResponse;
+    }
 }
